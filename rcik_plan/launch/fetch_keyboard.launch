@@ -1,0 +1,5 @@
+<launch>
+    <group ns="rcik">
+        <rosparam file="$(find rcik_plan)/launch/fetch_keyboard.yaml" />
+    </group>
+</launch>
